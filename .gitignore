@@ -41,3 +41,6 @@ safetensors.ipynb
 *.dic
 
 playground.ipynb
+
+# macOS
+.DS_Store
