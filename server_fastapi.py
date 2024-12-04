@@ -57,8 +57,8 @@ bert_models.load_model(Languages.JP)
 bert_models.load_tokenizer(Languages.JP)
 bert_models.load_model(Languages.EN)
 bert_models.load_tokenizer(Languages.EN)
-bert_models.load_model(Languages.ZH)
-bert_models.load_tokenizer(Languages.ZH)
+# bert_models.load_model(Languages.ZH)
+# bert_models.load_tokenizer(Languages.ZH)
 
 
 def raise_validation_error(msg: str, param: str):

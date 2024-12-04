@@ -116,8 +116,8 @@ def main():
 
     download_bert_models()
 
-    if not args.skip_default_models:
-        download_default_models()
+    # if not args.skip_default_models:
+    #     download_default_models()
     if not args.only_infer:
         download_slm_model()
         download_pretrained_models()
